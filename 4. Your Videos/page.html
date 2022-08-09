@@ -1,0 +1,156 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="../current.css">
+    <title>Youtube</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <div class="header">
+      <div class="header__left">
+        <i id="menu" class="material-icons">menu</i>
+        <img src="../Images/logo.png" alt="">
+      </div>
+
+      <div class="header__search">
+        <form action="">
+          <input type="text" placeholder="Search">
+          <button><i class="material-icons">search</i></button>
+        </form>
+      </div>
+
+      <div class="header__icons">
+        <i class="material-icons display-this">search</i>
+        <i class="material-icons">videocam</i>
+        <i class="material-icons">apps</i>
+        <i class="material-icons">notifications</i>
+        <i class="material-icons display-this">account_circle</i>
+      </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="mainBody">
+      <!-- Sidebar Starts -->
+      <div class="sidebar">
+        <div class="channel-info">
+          <img src="../Images/profile-pic.jpg">
+          <h3>Your Channel</h3>
+          <p>Omar Ashraf Ramadan</p>
+        </div>
+        <hr>
+        <div class="sidebar__categories">
+          <a href="" class="sidebar__category" id="slidebar_current">
+            <i id="slidebar_icon_current" class="material-icons">dashboard</i>
+            <span>Dashboard</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">video_library</i>
+            <span>Content</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">playlist_play</i>
+            <span>Playlists</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">assessment</i>
+            <span>Analytics</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">comment</i>
+            <span>Comments</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">subtitles</i>
+            <span>Subtitles</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">copyright</i>
+            <span>Copyright</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">attach_money</i>
+            <span>Monetization</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">auto_fix_high</i>
+            <span>Customization</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">library_music</i>
+            <span>Audio library</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">settings</i>
+            <span>Settings</span>
+          </a>
+          <a href="" class="sidebar__category">
+            <i class="material-icons">feedback</i>
+            <span>Send feedback</span>
+          </a>
+        </div>
+
+      </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Videos Section -->
+      <div class="videos">
+        <h1>Channel dashboard</h1>
+        <div class="container">
+          <div class="window section_1">
+            <img src="../Images/dashboard.svg">
+            <p>Want to see metrics on your recent video?<br>
+              Upload and publish a video to get started.</p>
+            <button>Upload Videos</button>
+          </div>
+          <div class="window section_2">
+            <div class="analytics">
+              <h1>Channel analytics</h1>
+              <h3>Current subscribers</h3>
+              <h2>15</h1>
+            </div>
+            <hr>
+            <div class="summary">
+              <h1>Summary</h1>
+              <p>Last 28 days</p>
+              <div class="statistics">
+                <p>Views</p>
+                <p class="FloatRight1">325</p>
+              </div>
+              <div class="statistics">
+                <p>Watch time (hours)</p>
+                <p class="FloatRight2">190</p>
+              </div>
+            </div>
+          </div>
+          <div class="window section_3">
+            <h1>What's new in Studio</h1>
+            <div class="inOneRaw">
+              <a href="https://support.google.com/youtube/answer/11286863?hl=en" target="_blank">Channel permissions for YouTube Live</a>
+              <span class="material-icons">open_in_new</span>
+            </div>
+            <hr>
+            <div class="inOneRaw">
+              <a href="https://support.google.com/youtube/answer/11286864?hl=en" target="_blank">YouTube Studio app refresh</a>
+              <span class="material-icons">open_in_new</span>
+            </div>
+            <hr>
+            <div class="inOneRaw">
+              <a href="https://support.google.com/youtube/answer/11287076?hl=en" target="_blank">Update to YouTube's Terms of Service</a>
+              <span class="material-icons">open_in_new</span>
+            </div>
+          </div>
+        </div>
+    <script src="index.js"></script>
+    <!-- Main Body Ends -->
+  </body>
+  <script src="page.js"></script>
+</html>
